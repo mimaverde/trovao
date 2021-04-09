@@ -1,0 +1,249 @@
+.template_color1 {
+    background-color: $pink;
+    color: $green; transition: all 0.5s linear;
+
+    a { color: $green; }
+    svg { fill: $green; transition: all 0.5s linear; }
+    .menu a { border-bottom: $pink 2px solid; transition: all 0.5s linear; }
+    .menu a:hover { border-bottom: $green 2px solid; transition: all 0.5s linear; }
+    .current_page_item>a { border-bottom: $green 2px solid; transition: all 0.5s linear; }
+    .menu-toggle span { background: $green;}
+    .search__box {
+        background-color: $pink;
+        transition: all 0.5s linear;
+        input { border: 2px solid $green; color: $green; }
+        input::placeholder {
+            color: transparent;
+        }
+    }
+    #player  #title { color: $green }
+    #player  #nextBtn,
+    #player #prevBtn,
+    #player #pauseBtn,
+    #player #playBtn,
+    #player .box-progress { border: 2px solid $green; }
+    #player .box-progress { background: $green; }
+    #player #progress { background-color: $pink; }
+
+    &.theme_dark {
+        background-color: $green;
+        color: $pink;
+        transition: all 0.5s linear;
+
+        a { color: $pink; }
+        svg { fill: $pink; transition: all 0.5s linear; }
+        .menu a { border-bottom: $green 2px solid; transition: all 0.5s linear; }
+        .menu a:hover { border-bottom: $pink 2px solid; transition: all 0.5s linear; }
+        .current_page_item>a { border-bottom: $pink 2px solid; transition: all 0.5s linear; }
+        .menu-toggle span { background: $pink;}
+        .search__box {
+            background-color: $green;
+            transition: all 0.5s linear;
+            input { border: 2px solid $pink; color: $pink; }
+            input::placeholder {
+                color: transparent;
+            }
+        }
+        #player  #title { color: $pink }
+        #player  #nextBtn,
+        #player #prevBtn,
+        #player #pauseBtn,
+        #player #playBtn,
+        #player .box-progress { border: 2px solid $pink; }
+        #player .box-progress { background: $pink; }
+        #player #progress { background-color: $green; }
+    }
+}
+
+.template_color2 {
+    background-color: $yellow;
+    color: $blue;
+    transition: all 0.5s linear;
+
+    a { color: $blue; }
+    svg { fill: $blue; transition: all 0.5s linear; }
+    .menu a { border-bottom: $yellow 2px solid; transition: all 0.5s linear; }
+    .menu a:hover { border-bottom: $blue 2px solid; transition: all 0.5s linear; }
+    .current_page_item>a { border-bottom: $blue 2px solid; transition: all 0.5s linear; }
+    .menu-toggle span { background: $blue;}
+    .search__box {
+        background-color: $yellow;
+        transition: all 0.5s linear;
+        input { border: 2px solid $blue; color: $blue; }
+        input::placeholder {
+            color: transparent;
+        }
+    }
+    #player #progress { background-color: $yellow;}
+    #player .box-progress { border: 2px solid $blue; }
+    #player .box-progress { background: $blue; }
+    #player #progress { background-color: $yellow; }
+
+    &.theme_dark {
+        background-color: $blue;
+        color: $yellow;
+        transition: all 0.5s linear;
+
+        a { color: $yellow; }
+        svg { fill: $yellow; transition: all 0.5s linear; }
+        .menu a { border-bottom: $blue 2px solid; transition: all 0.5s linear; }
+        .menu a:hover { border-bottom: $yellow 2px solid; transition: all 0.5s linear; }
+        .current_page_item>a { border-bottom: $yellow 2px solid; transition: all 0.5s linear; }
+        .menu-toggle span { background: $yellow;}
+        .search__box {
+            background-color: $blue;
+            transition: all 0.5s linear;
+            input { border: 2px solid $yellow; color: $yellow; }
+            input::placeholder {
+                color: transparent;
+            }
+        }
+        #player #progress { background-color: $blue;}
+        #player .box-progress { border: 2px solid $yellow; }
+        #player .box-progress { background: $yellow; }
+        #player #progress { background-color: $blue; }
+    }
+}
+
+.template_color3 {
+    background-color: $light-blue;
+    color: $purple;
+    transition: all 0.5s linear;
+
+    a { color: $purple; }
+    svg { fill: $purple; transition: all 0.5s linear; }
+    .menu a { border-bottom: $light-blue 2px solid; transition: all 0.5s linear; }
+    .menu a:hover { border-bottom: $purple 2px solid; transition: all 0.5s linear; }
+    .current_page_item>a { border-bottom: $purple 2px solid; transition: all 0.5s linear; }
+    .menu-toggle span { background: $purple;}
+    .search__box {
+        background-color: $light-blue;
+        transition: all 0.5s linear;
+        input { border: 2px solid $purple; color: $purple; }
+        input::placeholder {
+            color: transparent;
+        }
+    }
+    #player  #title { color: $purple }
+    #player  #nextBtn,
+    #player #prevBtn,
+    #player #pauseBtn,
+    #player #playBtn,
+    #player .box-progress { border: 2px solid $purple; }
+    #player .box-progress { background: $purple; }
+    #player #progress { background-color: $light-blue; }
+
+    &.theme_dark {
+        background-color: $purple;
+        color: $light-blue;
+        transition: all 0.5s linear;
+
+        a { color: $light-blue; }
+        svg { fill: $light-blue; transition: all 0.5s linear; }
+        .menu a { border-bottom: $purple 2px solid; transition: all 0.5s linear; }
+        .menu a:hover { border-bottom: $light-blue 2px solid; transition: all 0.5s linear; }
+        .current_page_item>a { border-bottom: $light-blue 2px solid; transition: all 0.5s linear; }
+        .menu-toggle span { background: $light-blue;}
+        .search__box {
+            background-color: $purple;
+            transition: all 0.5s linear;
+            input { border: 2px solid $light-blue; color: $light-blue; }
+            input::placeholder {
+                color: transparent;
+            }
+        }
+        #player  #title { color: $light-blue }
+        #player  #nextBtn,
+        #player #prevBtn,
+        #player #pauseBtn,
+        #player #playBtn,
+        #player .box-progress { border: 2px solid $light-blue; }
+        #player .box-progress { background: $light-blue; }
+        #player #progress { background-color: $purple; }
+    }
+}
+
+.template_color4 {
+    background-color: $dark-blue;
+    color: $orange;
+
+    a { color: $orange; }
+    svg { fill: $orange; transition: all 0.5s linear; }
+    .menu a { border-bottom: $dark-blue 2px solid; transition: all 0.5s linear; }
+    .menu a:hover { border-bottom: $orange 2px solid; transition: all 0.5s linear; }
+    .current_page_item>a { border-bottom: $orange 2px solid; transition: all 0.5s linear; }
+    .menu-toggle span { background: $orange;}
+    .search__box {
+        background-color: $dark-blue;
+        transition: all 0.5s linear;
+        input { border: 2px solid $orange; color: $orange; }
+        input::placeholder {
+            color: transparent;
+        }
+    }
+    #player  #title { color: $orange }
+    #player  #nextBtn,
+    #player #prevBtn,
+    #player #pauseBtn,
+    #player #playBtn,
+    #player .box-progress { border: 2px solid $orange; }
+    #player .box-progress { background: $orange; }
+    #player #progress { background-color: $dark-blue;}
+
+    &.theme_dark {
+        background-color: $orange;
+        color: $dark-blue;
+        transition: all 0.5s linear;
+
+        a { color: $dark-blue; }
+        svg { fill: $dark-blue; transition: all 0.5s linear; }
+        .menu a { border-bottom: $orange 2px solid; transition: all 0.5s linear; }
+        .menu a:hover { border-bottom: $dark-blue 2px solid; transition: all 0.5s linear; }
+        .current_page_item>a { border-bottom: $dark-blue 2px solid; transition: all 0.5s linear; }
+        .menu-toggle span { background: $dark-blue;}
+        .search__box {
+            background-color: $orange;
+            transition: all 0.5s linear;
+            input { border: 2px solid $dark-blue; color: $dark-blue; }
+            input::placeholder {
+                color: transparent;
+            }
+        }
+        #player  #title { color: $dark-blue }
+        #player  #nextBtn,
+        #player #prevBtn,
+        #player #pauseBtn,
+        #player #playBtn,
+        #player .box-progress { border: 2px solid $dark-blue; }
+        #player .box-progress { background: $dark-blue; }
+        #player #progress { background-color: $orange; }
+    }
+}
+
+.template_color5 {
+    background-color: $white;
+    color: $black;
+
+    a { color: $black; }
+    svg { fill: $black; transition: all 0.5s linear; }
+    .menu a { border-bottom: $white 2px solid; transition: all 0.5s linear; }
+    .menu a:hover { border-bottom: $black 2px solid; transition: all 0.5s linear; }
+    .current_page_item>a { border-bottom: $black 2px solid; transition: all 0.5s linear; }
+    .menu-toggle span { background: $black;}
+    .search__box {
+        background-color: $white;
+        transition: all 0.5s linear;
+        input { border: 2px solid $black; color: $black; }
+        input::placeholder {
+            color: transparent;
+        }
+    }
+    #player  #title { color: $black }
+    #player  #nextBtn,
+    #player #prevBtn,
+    #player #pauseBtn,
+    #player #playBtn,
+    #player .box-progress { border: 2px solid $black; }
+    #player .box-progress { background: $black; }
+    #player #progress { background-color: $white;}
+}

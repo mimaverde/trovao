@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'book';
+	src: url('fonts/Circular Std Book.eot');
+	src: local('☺'), url('fonts/Circular Std Book.woff') format('woff'), url('fonts/Circular Std Book.ttf') format('truetype'), url('fonts/Circular Std Book.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: $color__text-main;
+	font-family: $font__main;
+	@include font-size(1.1);
+	line-height: $font__line-height-body;
+}
+
+p {
+	font-size: 1.3rem;
+	line-height: 2rem;
+	letter-spacing: -0.05rem;
+}
+
+@import "headings";
+
+@import "copy";

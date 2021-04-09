@@ -1,0 +1,51 @@
+
+.page-template-page-nossos-podcasts {
+    .podcast-title {
+        font-size: 1.6rem;
+        margin: 0;
+    }
+
+    .podcast-item {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 2vh 0;
+
+        @media only screen and (max-width: 812px){
+            display: block;
+        }
+    }
+
+    .podcast-content {
+        @media only screen and (min-width: 812px){
+            padding-right: 1vw;
+        }
+    }
+
+    .podcast-image {
+        width: 25vw;
+        height: 25vw;
+        max-width: 350px;
+        max-height: 350px;
+        min-width: 300px;
+        min-height: 300px;
+        margin-left: 22px;
+        border: 7px solid $white;
+        position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
+
+        @media only screen and (max-width: 812px){
+            margin: 0;
+        }
+    }
+
+    .podcast-image img {
+        height: 100%;
+        width: auto;
+        max-width: fit-content;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+}

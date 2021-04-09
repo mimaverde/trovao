@@ -1,0 +1,12 @@
+
+.page-template-page-home {
+    .entry-content {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        letter-spacing: -0.05rem;
+
+        @media only screen and (max-width: 812px){
+            font-size: 1.3rem;
+        }
+    }
+}

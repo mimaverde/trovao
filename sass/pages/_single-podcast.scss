@@ -1,0 +1,163 @@
+#page-single-podcast {
+  padding-top: 30px;
+
+  .podcast-image {
+      width: 25vw;
+      height: 25vw;
+      max-width: 350px;
+      max-height: 350px;
+      margin-left: 22px;
+      border: 7px solid #ffffff;
+      position: relative;
+      overflow: hidden;
+      box-sizing: border-box;
+
+      @media only screen and (max-width: 812px){
+          margin: 0 0 20px 0;
+      }
+  }
+
+  .podcast-image img {
+      height: 100%;
+      width: auto;
+      max-width: fit-content;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+  }
+
+  .podcast-title {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+
+  .episode-embed {
+    width: 60%;
+    position: relative;
+    left: 40%;
+
+     @media only screen and (max-width: 812px) {
+       width: 100%;
+       left: 0;
+     }
+  }
+
+  .description-content {
+    @media only screen and (min-width: 812px) {
+      width: 45vw;
+    }
+  }
+
+  .description {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+
+    @media only screen and (max-width: 812px){
+      display: block;
+    }
+  }
+
+  .share {
+    @media only screen and (max-width: 812px){
+      display: flex;
+    }
+  }
+
+  .share, .midias {
+    margin: 0 0 20px 0;
+  }
+
+  .share-title {
+    text-decoration: underline;
+    margin: 0 10px 0;
+  }
+
+  .share-item {
+    margin-right: 10px;
+
+    svg {
+      width: 15px;
+      height: 15px;
+
+      @media only screen and (max-width: 812px) {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+
+  .episode-episode {
+    font-size: 0.8rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+
+  .episode-title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+
+  .episodio_item {
+    margin-bottom: 20px;
+  }
+
+  .tooltip {
+    position: relative;
+
+    &:before {
+      content: '';
+      opacity: 0;
+      position: absolute;
+      z-index: 9998;
+      top: 18px;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 5px solid rgba(255,255,255,.72);
+
+      transition: .2s all ease-in;
+    }
+
+    &:after {
+      content: 'Copiar Link';
+      opacity: 0;
+      position: absolute;
+      z-index: 9999;
+      top: 23px;
+      left: -50px;
+      width: 114px;
+      height: 36px;
+
+      color: #000;
+      font-size: 10px;
+      line-height: 36px;
+      text-align: center;
+
+      background: rgba(255,255,255,.72);
+      border-radius: 3px;
+
+      transition: .2s all ease-in;
+    }
+
+    &:hover {
+      &:before, &:after {
+        opacity: 1;
+        transition: .2s all ease-in;
+      }
+    }
+    
+    &:active, &:focus {
+      outline: none;
+      
+      &:after {
+        content: 'Link Copiado!';
+      }
+    }
+  }
+}
